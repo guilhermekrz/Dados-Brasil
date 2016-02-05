@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+             tools:context="com.brokoli.dadosbrasil.view.DesmatamentoAmazoniaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/defaultMargin"
+        android:text="Desmatamento anual do bioma Amazônia (Km²/ano)"/>
+
+    <co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
+        android:id="@+id/desmatamento_amazonia_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rrvIsRefreshable="true"
+        app:rrvEmptyLayoutId="@layout/empty_view"
+        app:rrvLayoutType="LinearLayout"
+        />
+
+</LinearLayout>
