@@ -78,7 +78,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars" />
@@ -114,8 +113,8 @@
     <orderEntry type="library" exported="" name="realm-android-0.87.3" level="project" />
     <orderEntry type="library" exported="" name="okio-1.6.0" level="project" />
     <orderEntry type="library" exported="" name="eventbus-2.4.0" level="project" />
-    <orderEntry type="library" exported="" name="gson-2.5" level="project" />
     <orderEntry type="library" exported="" name="retrofit-2.0.0-beta3" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.5" level="project" />
     <orderEntry type="library" exported="" name="crashlytics-2.5.5" level="project" />
     <orderEntry type="library" exported="" name="SuperSLiM-ed0ba4b4d2" level="project" />
     <orderEntry type="library" exported="" name="crashlytics-core-2.3.8" level="project" />

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Dados Brasil</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Main -->
+    <string name="drawer_open">Abrir painel de navegação</string>
+    <string name="drawer_close">Fechar painel de navegação</string>
+
+    <!-- Desmatamento Amazonia -->
+    <string name="desmatamento_amazonia">Desmatamento Amazônia</string>
 </resources>

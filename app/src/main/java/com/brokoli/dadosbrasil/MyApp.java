@@ -1,6 +1,7 @@
 package com.brokoli.dadosbrasil;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.brokoli.dadosbrasil.persistence.Migration;
 import com.crashlytics.android.Crashlytics;
@@ -18,9 +19,21 @@ import timber.log.Timber;
     // 2 - Display more information, with a better UX
     // 3 - Add link to other apps in PlayStore
 public class MyApp extends Application {
+    // App context
+    private static Context context;
+
+    // Preferences
+    private static final String PREFERENCE_FILE_KEY_BASE = ".PREFERENCE_FILE_KEY";
+    public static String PREFERENCE_FILE_KEY;
+    public static Context getAppContext() {
+        return MyApp.context;
+    }
+
     @Override
     public void onCreate() {
         super.onCreate();
+        MyApp.context = getApplicationContext();
+        PREFERENCE_FILE_KEY = context.getPackageName() + PREFERENCE_FILE_KEY_BASE;
         setupCrashlytics();
         setupTimber();
         setupRealm();
